@@ -43,7 +43,7 @@ export CLOUDSDK_ACTIVE_CONFIG_NAME=default
 [Mon Jul  6 00:32:52 UTC 2020] And the full chain certs is there:  /home/ubuntu/.acme.sh/pks4u.com/fullchain.cer 
 ```
 
-- You can use https://www.sslshopper.com/certificate-decoder.html to decode the cert at /home/ubuntu/.acme.sh/pks4u.com/pks4u.com.cer and you'll see:
+- You can use https://www.sslshopper.com/certificate-decoder.html to decode the cert:
 
 ```
 Certificate Information:
