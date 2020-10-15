@@ -27,10 +27,12 @@ core:
 
 ```
 cd ~
-git clone https://github.com/acmesh-official/acme.sh
-cd acme.sh
+git clone https://github.com/acmesh-official/acme.sh.git
+cd ./acme.sh
+./acme.sh --install
 export CLOUDSDK_ACTIVE_CONFIG_NAME=default
 ```
+
 ```
 ./acme.sh --issue --dns dns_gcloud -d '*.pks4u.com' -d '*.pks.pks4u.com' -d '*.apps.pks4u.com' -d '*.sys.pks4u.com' -d '*.login.sys.pks4u.com' -d '*.uaa.sys.pks4u.com'
 ```
