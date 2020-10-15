@@ -32,7 +32,7 @@ cd acme.sh
 export CLOUDSDK_ACTIVE_CONFIG_NAME=default
 ```
 ```
-./acme.sh --issue --dns dns_gcloud -d pks4u.com -d '*.pks4u.com' -d *.pks.pks4u.com -d *.apps.pks4u.com -d *.sys.pks4u.com -d *.login.sys.pks4u.com -d *.uaa.sys.pks4u.com
+./acme.sh --issue --dns dns_gcloud -d '*.pks4u.com' -d '*.pks.pks4u.com' -d '*.apps.pks4u.com' -d '*.sys.pks4u.com' -d '*.login.sys.pks4u.com' -d '*.uaa.sys.pks4u.com'
 ```
 - And then you wait for `acme.sh` to do its magic... and eventually you will see:
 
